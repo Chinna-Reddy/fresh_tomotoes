@@ -10,7 +10,7 @@ the_intouchables = media.Movie("The Intouchables","An unlikely friendship develo
 star_wars = media.Movie("Star Wars: The Last Jedi", "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares to do battle with the First Order.", "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg","https://www.youtube.com/watch?v=Gn0WzX3OcAU")
 it = media.Movie("It", "Seven young outcasts in Derry, Maine, are about to face their worst nightmare -- an ancient, shape-shifting evil that emerges from the sewer every 27 years to prey on the town's children. Banding together over the course of one horrifying summer, the friends must overcome their own personal fears to battle the murderous, bloodthirsty clown known as Pennywise.","https://upload.wikimedia.org/wikipedia/en/5/5a/It_%282017%29_poster.jpg","https://www.youtube.com/watch?v=fsedSpJ-_a8")
 
-# Creating a HTML file and opening in web browser for list of movies
+# Creating a HTML file and opening in web browser for list of Latest movies
 movies = [toy_story, avatar, baahubali, the_intouchables, star_wars, it]
 fresh_tomatoes.open_movies_page(movies)
 
